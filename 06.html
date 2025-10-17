@@ -7,4 +7,22 @@ Em seguida, utilizando for...of, conte quantos nomes na lista possuem menos de 5
 Apresente para o usuário qual o número total de nomes curtos encontrados.
     */
 
+    let nomes= ["Ana", "Carlos", "Beatriz", "Ivo", "Fernanda", "Eder"];
+    const novoNome= prompt(`insira um novo nome`);
+
+    nomes.push(novoNome);
+
+    for( let tamanhoNome of nomes) {
+        let soletrar= Array.from(tamanhoNome);
+        soletrar.length;
+
+        let tamanho= Array.from(tamanhoNome);
+        tamanho.length;
+
+        if( soletrar< 5)
+        alert(soletrar);
+    }
+
+
+
 </script>
